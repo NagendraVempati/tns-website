@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TNS Infrasolutions | Under Construction</title>
+<meta name="description" content="TNS Infrasolutions. Our website is under construction. Civil, electrical and infrastructure works.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='14' fill='%2314212b'/><text x='50' y='72' font-size='64' font-weight='800' text-anchor='middle' fill='%23e8a317' font-family='Arial'>T</text></svg>">
+<style>
+  :root {
+    --bg: #14212b;
+    --panel: #1c2d3a;
+    --ink: #f2f0ea;
+    --muted: #9fb0bc;
+    --accent: #e8a317;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 24px clamp(20px, 5vw, 56px);
+  }
+  .mark {
+    width: 44px; height: 44px;
+    display: grid; place-items: center;
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 800;
+    font-size: 1.5rem;
+    border-radius: 6px;
+  }
+  .brand { font-weight: 700; letter-spacing: .08em; font-size: .95rem; }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: min(960px, 100%);
+    margin: 0 auto;
+    padding: 24px clamp(20px, 5vw, 56px) 56px;
+  }
+  .tagline { color: var(--accent); font-weight: 600; margin: 0 0 18px; font-size: 1.05rem; }
+  h1 {
+    font-size: clamp(2.6rem, 9vw, 5.5rem);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: clamp(1.3rem, 3.4vw, 2rem);
+    font-weight: 500;
+    color: var(--muted);
+    margin: 0 0 28px;
+  }
+  p.lead { font-size: 1.15rem; line-height: 1.6; max-width: 44ch; margin: 0 0 40px; }
+  .trades { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 12px; padding: 0; list-style: none; }
+  .trades li {
+    background: var(--panel);
+    border-left: 4px solid var(--accent);
+    padding: 12px 20px;
+    font-weight: 600;
+  }
+  /* foundation layers */
+  .layers { margin-top: 48px; display: grid; gap: 6px; max-width: 360px; }
+  .layers span { height: 10px; background: var(--accent); border-radius: 2px; }
+  .layers span:nth-child(2) { opacity: .6; width: 85%; }
+  .layers span:nth-child(3) { opacity: .35; width: 70%; }
+  .strong { margin: 14px 0 0; color: var(--muted); font-size: .95rem; }
+  footer {
+    padding: 20px clamp(20px, 5vw, 56px);
+    border-top: 1px solid #2a3d4c;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="mark" aria-hidden="true">T</div>
+    <div class="brand">TNS INFRASOLUTIONS</div>
+  </header>
+
+  <main>
+    <p class="tagline">A new foundation is taking shape</p>
+    <h1>TNS Infrasolutions</h1>
+    <h2>Our website is under construction.</h2>
+    <p class="lead">We're building our new online home. Thank you for your patience. Please visit again soon.</p>
+
+    <ul class="trades">
+      <li>Civil</li>
+      <li>Electrical</li>
+      <li>Infrastructure</li>
+    </ul>
+
+    <div class="layers" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p class="strong">Built on a strong foundation</p>
+  </main>
+
+  <footer>
+    <span>&copy; <span id="y">2026</span> TNS Infrasolutions</span>
+    <span>tnsinfrasolution.com</span>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
