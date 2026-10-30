@@ -1,6 +1,0 @@
-.tools/
-.qa/
-__pycache__/
-*.tar.gz
-*.zip
-dist/assets/*.png
