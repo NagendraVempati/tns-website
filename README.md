@@ -23,7 +23,7 @@ Then visit http://127.0.0.1:8768.
 
 ## Business details to personalize
 
-The business name is TNS Infrasolutions. The intended domain is tnsinfrasolution.com. The lightning logo and ELECTRICAL & INFRASTRUCTURE tagline are preserved. The service area still needs adding. Sites currently reports the domain is already in use, so it has not been connected to this Site.
+The business name is TNS Infrasolutions. The intended domain is tnsinfrasolution.com. The navy-and-green logo is a vector rendition of the supplied reference; the ELECTRICAL & INFRASTRUCTURE tagline is preserved. The service area still needs adding. Sites currently reports the domain is already in use, so it has not been connected to this Site.
 
 The project form opens the visitor's email app with a draft addressed to `sivaram@tnsinfrasolution.com`. The visitor must press Send in their email app; the static website does not send mail automatically. The footer includes phone and WhatsApp links for +91 99893 23228 and the business email. Instagram, X and YouTube icons are displayed without profile links, as requested; add the business profile URLs later. No visitor information is stored by this website. Google Fonts provides optional typefaces, with system-font fallbacks.
 
@@ -40,3 +40,7 @@ For Git-based static hosting, publish this repository from its root directory. T
 The `.openai/hosting.json` file records the previous Sites deployment configuration. It is not used by Git-based hosting; its old `dist` entry point no longer matches this root-based layout.
 
 Local runtime files (`.tools`) and browser QA artifacts (`.qa`) are excluded from source commits. The original hero PNG is preserved in `source-assets` and is not included in the deployed static assets.
+
+## Brand stationery
+
+`brand-kit/` contains separate PDFs for the business card front, business card back and A4 letterhead, plus editable SVGs and print specifications. The website uses `dist/assets/tns-logo.svg`, `tns-mark.svg` and the updated favicon. Contact details use +91 99893 23228, as confirmed.
